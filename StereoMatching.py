@@ -169,7 +169,7 @@ if __name__ == '__main__':
     import cv2
 
     stereo = StereoMatching()
-
+    print("new line")
     dataset = ["MP3D", "SF3D"]
     dt = 0
     data_path = "/home/kike/Documents/Dataset/ICCV_dataset/{}/test".format(dataset[dt])
